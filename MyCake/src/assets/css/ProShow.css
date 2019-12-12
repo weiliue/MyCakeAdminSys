@@ -1,0 +1,168 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.top_list {
+	display: flex;
+	padding: 10px 0;
+
+}
+
+.top{
+	margin: 0 70px;
+	padding: 25px 0;
+	border-bottom: 2px solid pink;
+}
+
+.sp {
+	font-size: 13px;
+	color: #684029;
+	margin: 30px;
+	cursor: pointer;
+}
+
+.sort {
+	color: #9B9B9B;
+	margin-right: 20px;
+	font-size: 13px;
+}
+/* 最外层 */
+.contain {
+	width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+	background-color: #fff;
+}
+
+
+/* 商品展示区域 */
+.box ul {
+	display: flex;
+	flex-wrap: wrap;
+	/* justify-content: space-around; */
+	margin-left: 40px;
+}
+
+h3,
+.shop {
+	color: #684029;
+	font-size: 13px;
+	cursor: pointer;
+}
+.shop{
+	color: #fff;
+	font-size: 16px;
+}
+
+h3:hover,
+.shop:hover {
+	font-size: 13px;
+	cursor: pointer;
+	color: #BB9772;
+}
+
+.list {
+	margin: 10px;
+	color: #BB9772;
+	cursor: pointer;
+	font-size: 13px;
+}
+
+.box li {
+	width: 260px;
+	padding: 16px;
+	list-style: none;
+	margin: 10px;
+	text-align: center;
+	position: relative;
+	/* border: 1px solid pink; */
+}
+.box li:hover{
+	transition: all 1s;
+	background-color: rgb(253, 234, 237);
+}
+
+.cart{
+	line-height: 40px;
+	border-top: 1px dashed pink;
+	background-color: #f36d45;
+}
+
+.box img {
+	width: 228px;
+	height: 246px;
+}
+
+.item {
+	position: relative;
+}
+
+.ShowCat {
+	width: 100%;
+	height: 120px;
+	position: absolute;
+	left: 0;
+	bottom: -170px;
+	transition: all 1s;
+	color: #7A5844;
+}
+
+.trafrome {
+	bottom: 0px;
+}
+
+.addM {
+	width: 100px;
+	height: 30px;
+	border: 1px solid #BB9772;
+	position: absolute;
+	left: 0px;
+	line-height: 30px;
+	font-size: 13px;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 20px;
+	color: #7A5844;
+}
+
+.clan {
+	width: 100px;
+	height: 30px;
+	border: 1px solid #BB9772;
+	position: absolute;
+	right: 0px;
+	line-height: 30px;
+	font-size: 13px;
+	cursor: pointer;
+	border-radius: 20px;
+	color: #fff;
+	background-color: rgb(104, 64, 41);
+}
+
+.succe {
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.look {
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 13px;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	background-color: rgb(104, 64, 41);
+}
+
+.seek {
+	width: 100%;
+	top: 195px;
+	height: 50px;
+	background: #ccc;
+}
